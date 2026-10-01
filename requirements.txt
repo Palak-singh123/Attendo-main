@@ -1,0 +1,19 @@
+# Utilities
+numpy
+pandas
+# Face-recognition
+scikit-learn
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models
+setuptools
+
+# database for storing millions of text basically near about 2 gb
+supabase
+# hashing methods
+bcrypt
+# QR code generation url -> QR code
+segno
+# helps in pre processing of image like resizing,flipping , transform,scale,color
+pillow
+# frontend library
+streamlit
