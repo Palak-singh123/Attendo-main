@@ -21,6 +21,6 @@ pillow
 librosa
 # makes it's embeddings
 resemblyzer
-opencv-python-headless
+opencv-python
 insightface
 onnxruntime
