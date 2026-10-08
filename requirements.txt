@@ -1,26 +1,33 @@
 # frontend library
 streamlit
+
 # Utilities
 numpy
 pandas
+
 # Face-recognition
 scikit-learn
 dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
 setuptools
 
-# database for storing millions of text basically near about 2 gb
+# database
 supabase
+
 # hashing methods
 bcrypt
-# QR code generation url -> QR code
+
+# QR code generation
 segno
-# helps in pre processing of image like resizing,flipping , transform,scale,color
+
+# image processing
 pillow
-# to edit and load audio files remove noice
+
+# audio processing
 librosa
-# makes it's embeddings
 resemblyzer
-opencv-python
+
+# OpenCV and InsightFace
+opencv-python-headless==4.12.0.88
 insightface
 onnxruntime
