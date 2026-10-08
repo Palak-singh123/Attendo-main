@@ -11,20 +11,6 @@ def main():
         page_icon=str(Path("assets/Favicon.png")),
         layout="wide"
     )
-    st.markdown(
-    """
-    <style>
-    [data-testid="stSidebar"] {
-        display: none;
-    }
-
-    [data-testid="stSidebarNav"] {
-        display: none;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
     if "pending_join_code" not in st.session_state:
         st.session_state.pending_join_code = None
 
