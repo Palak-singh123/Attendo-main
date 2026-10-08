@@ -29,4 +29,31 @@ def header_home():
    st.markdown("""
                 
    """, unsafe_allow_html=True)
-   
+def header_dashboard():
+    st.markdown(
+        """
+        <style>
+            .AttendoLogoDashboard {
+                text-align: center;
+            }
+
+            .AttendoLogoDashboard img {
+                position: relative;
+                left: -80px !important;
+                top: 20px !important;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.html(
+        f"""
+        <div class="AttendoLogoDashboard">
+            <img
+                src="data:image/png;base64,{image_base64(Path("assets/AttendoLogo.png"))}"
+                width="250"
+            >
+        </div>
+        """
+    )

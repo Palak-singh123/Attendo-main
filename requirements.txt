@@ -1,3 +1,5 @@
+# frontend library
+streamlit
 # Utilities
 numpy
 pandas
@@ -15,5 +17,7 @@ bcrypt
 segno
 # helps in pre processing of image like resizing,flipping , transform,scale,color
 pillow
-# frontend library
-streamlit
+# to edit and load audio files remove noice
+librosa
+# makes it's embeddings
+resemblyzer
