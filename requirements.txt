@@ -22,3 +22,5 @@ librosa
 # makes it's embeddings
 resemblyzer
 opencv-python-headless
+insightface
+onnxruntime
