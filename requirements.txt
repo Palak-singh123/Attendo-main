@@ -9,7 +9,7 @@ pandas
 scikit-learn
 dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
-setuptools
+setuptools<82
 
 # database
 supabase
@@ -31,3 +31,6 @@ resemblyzer
 opencv-python-headless==4.12.0.88
 insightface
 onnxruntime
+
+# Voice activity detection
+webrtcvad-wheels==2.0.14
