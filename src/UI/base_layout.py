@@ -189,30 +189,42 @@ def style_base_layout():
         }
         /* TERTIARY BUTTON —*/
 
-div.stButton > button[kind="tertiary"] {
-    background-color: #EFC5DD  !important;
-    color: white !important;
-    border: none !important;
-    border-radius: 1.5rem !important;
-    padding: 10px 20px !important;
-    transition: all 0.25s ease-in-out !important;
-    cursor: pointer !important;
-}
+                    div.stButton > button[kind="tertiary"] {
+                background-color: #EFC5DD  !important;
+                color: white !important;
+                border: none !important;
+                border-radius: 1.5rem !important;
+                padding: 10px 20px !important;
+                transition: all 0.25s ease-in-out !important;
+                cursor: pointer !important;
+            }
 
-/* TERTIARY BUTTON — HOVER */
+            /* TERTIARY BUTTON — HOVER */
 
-div.stButton > button[kind="tertiary"]:hover {
-    background-color: #E5AFD0  !important;
-    color: white !important;
-    transform: scale(1.05) !important;
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.20) !important;
-}
+            div.stButton > button[kind="tertiary"]:hover {
+                background-color: #E5AFD0  !important;
+                color: white !important;
+                transform: scale(1.05) !important;
+                box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.20) !important;
+            }
 
-/* TERTIARY BUTTON — CLICK */
+            /* TERTIARY BUTTON — CLICK */
 
-div.stButton > button[kind="tertiary"]:active {
-    transform: scale(0.98) !important;
-}
+            div.stButton > button[kind="tertiary"]:active {
+                transform: scale(0.98) !important;
+            }
+            div[data-testid="stAlert"] {
+            background-color: #FFF4D6 !important;
+            color: #493600 !important;
+            border: 1px solid #F0D58A !important;
+            border-radius: 12px !important;
+        }
+
+        div[data-testid="stAlert"] p,
+        div[data-testid="stAlert"] span,
+        div[data-testid="stAlert"] div {
+            color: #493600 !important;
+        }
 
         </style>
         """,
