@@ -11,23 +11,19 @@ from src.database.config import supabase
 
 
 # Load InsightFace model
-@st.cache_resource
-def load_face_model():
 
+@st.cache_resource(show_spinner=False)
+def load_face_model():
     model = FaceAnalysis(
         name="buffalo_l",
-        providers=[
-            "CoreMLExecutionProvider",
-            "CPUExecutionProvider"
-        ]
+        providers=["CPUExecutionProvider"]
     )
-
     model.prepare(
-        ctx_id=0,
+        ctx_id=-1,
         det_size=(640, 640)
     )
-
     return model
+
 
 
 # Convert image to numpy array
